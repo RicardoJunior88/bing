@@ -10,14 +10,14 @@ body{
 .concabecera{
     display: flex;
     justify-content: space-between;
-    height: 25px;
+    height: em;
 }
 
 .bing{
-    width: 150px;
-    margin: 18px 50px 20px 40px;
+    width: 10em;
+    margin: 1em;
     position: relative;
-    bottom: 48px;
+   bottom: 3.2em;
     
 }
 .izqcab{
@@ -25,32 +25,29 @@ body{
     align-items: flex-start;
     width: 40%;
     justify-content: space-evenly;
-    margin-top: 10px;
+    margin-top: 0.5em;
 }
 .iconos{
-    width: 20px;
+    width: 1em;
     position: relative;
-    top: 5px;
+    top: 0.2em;
 }
 .dchcab{
     width: 40%;
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
-    margin-top: 10px;
+    margin-top: 0.5em;
 }
 .iniciar {
     position: relative;
-    bottom: 6px;
-    min-width: 110px;
+    
+    min-width: 6em
 }
-.rewards{
-    position: relative; 
-    bottom: 8px;
-}
+
 .menu{
     position: absolute;
-    top: 18px;
+    top: 1.22em;
 
 
 }
@@ -60,10 +57,10 @@ body{
    width: 90%;
    height: 95%;
    outline: none;
-   font-size: 18px;
-   margin-left: 3px;
-   margin-top: 3px;
-   margin-bottom: 8px;
+   font-size: 1.5em;
+   margin-left: 1em;
+   
+   
    
    
 }
@@ -71,8 +68,6 @@ body{
     width: 100%;
     height: 92%;
     align-self: center;
-    margin-bottom: 1px;
-    margin-top: 1px;
 }
 .barra{
     position: absolute;
@@ -83,7 +78,7 @@ body{
     background-color: #fff;
     display: flex;  
     align-items: center;
-    border-radius: 8px;
+    border-radius: 0.8em;
     border: 0.5px #fff;
 
     justify-content: flex-end;
@@ -98,67 +93,42 @@ body{
     }
 
 
-.contotal{
+.footersuperior{
     
     position: absolute;
-    top: 65%;
-    width: 88%;
+    top: 70%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
-    margin-left: 5%;
+    margin-left: 15%;
 }
-.flechasdch{
+.derecha{
     display: flex;
-    gap: 3px;
+    gap: 3em;
     
     
 }
 .flechas{
     background-color: #222222e6;
     opacity: 90%;
-    padding: 10px;
-    border-radius: 5px;
-    
-}
-.flecha{
+    padding: 0.5em;
+    border-radius: 0.5em;
     width: 1.3em;
     height: 1.3em;
     font: 1em sans-serif;
+    
 }
-.info{
-    width: 3.5em;
-    height: 1.3em;
+
+.iconosfooter{
+    width: 1.1em;
 }
-.iconflecha{
-    width: 20px;
+.footersuperiorderecha{
+    display: flex;
+    gap: 0.3em;
+}
+.posicion{
+    min-width: 4em;
 }
 .marcador{
-    width: 18px;
-    padding-top: px;
-    position: relative;
-    top: 3.5px;
-}
-.contenedor-noticias{
-    display: flex;
-    position: absolute;
-    top: 75%;
-    margin-left: 5%;
-    gap: 8px;
-}
-.noticia{
-    background-color: #222222e6;
-    width: 186px;
-    /* padding-top: 8px; */
-    padding-block-end: 0px;
-    border-radius: 10px;
-}
-h2{
-    font-size: small;
-    padding-inline-start: 8px;
-}
-.imagen-noticia{
-    position: relative;
-    top: 4px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    margin-right: 0.3em;
 }
