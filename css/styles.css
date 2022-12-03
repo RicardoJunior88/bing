@@ -132,3 +132,27 @@ body{
 .marcador{
     margin-right: 0.3em;
 }
+.footerinferior{
+    display: flex;
+    position: absolute;
+    top: 78%;
+    width: 30%;
+    margin-left: 15%;
+    gap: 1em;
+    
+}
+.noticia{
+    background-color: #222222e6;
+    border-radius: 0.5em;
+    padding-top: 0;
+}
+.imagen{
+    border-radius: 0 0 0.5em 0.5em;
+    margin-top: 0;
+    position: relative;
+    top: 0.3em;
+}
+p{
+    margin: 0.1em 0.6em 0.1em 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
